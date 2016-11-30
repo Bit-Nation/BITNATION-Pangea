@@ -2,7 +2,7 @@
 
 ![screenshot](./screenshot.png)
 
-**Pangea is a Peer-to-Peer Blockchain Jurisdiction.**
+**Pangea is a Peer-to-Peer Jurisdiction powered by Secure Scuttlebutt and Ethereum.**
 
  - Private messages are end-to-end encrypted, always.
  - You have to follow somebody to get messages from them, so you won't get spammed.
@@ -25,8 +25,4 @@ Pangea embeds the [Scuttlebot networked database](https://github.com/ssbc/scuttl
 
 ## Docs
 
-- [Help / FAQ](./docs/help-faq.md)
-- [Building Patchwork](./docs/BUILDING.md)
-- [Creating a Testing Environment, and Running Tests](./docs/TESTING.md)
-- [Patchwork Project Structure](./docs/PROJECT-STRUCTURE.md)
 - [SSB Docs Repo](https://github.com/ssbc/docs)

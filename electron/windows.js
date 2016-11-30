@@ -35,8 +35,8 @@ function _unref () {
 
 function create (opts) {
   opts = extend({
-    width: 1024,
-    height: 768,
+    width: 1100,
+    height: 800,
     preload: require('path').join(__dirname, '../ui/preload.js'),
     webPreferences: webPreferences
   }, opts)
@@ -54,5 +54,11 @@ function create (opts) {
 
 module.exports = {
   create: create,
-  windows: _windows
+  windows: _windows,
+  hasVisibleWindows: function () {
+    Object.keys(_windows).some(function (id) {
+      var window = _windows[id]
+      return window.isVisible()
+    })
+  }
 }

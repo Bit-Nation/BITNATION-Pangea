@@ -19,7 +19,7 @@
 Because we're still in development, **you'll need to contact an SSB or BITNATION team member to get onto the network!**
 That's our informal barrier to entry right now, since we're not prepared for lots of users yet.
 
-Pangea embeds the [Scuttlebot networked database](https://github.com/ssbc/scuttlebot)and Patchwork Client, so if you're running Pangea, you don't need to run another scuttlebot server.
+Pangea embeds the [Scuttlebot networked database](https://github.com/ssbc/scuttlebot) and Patchwork Client, so if you're running Pangea, you don't need to run another scuttlebot server.
 
 ## [Install Instructions](./docs/install.md)
 

@@ -1,6 +1,6 @@
 # Pangea
 
-![screenshot](./screenshot.png)
+![screenshot](./pangea.png)
 
 **Pangea is a Peer-to-Peer Jurisdiction powered by Secure Scuttlebutt and Ethereum.**
 

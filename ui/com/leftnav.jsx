@@ -103,21 +103,21 @@ export default class LeftNav extends React.Component {
       <Issues/>
       { this.state.isChannelListOpen ? <ChannelList channels={this.state.channels} onSelect={this.onSelectChannel.bind(this)} /> : '' }
       
-      <LinkGroup pathname={pathname} to="/inbox" label={<strong>{t('Inbox')} ({app.indexCounts.inboxUnread})</strong>} icon="inbox" group="inbox">
+      <LinkGroup pathname={pathname} to="/inbox" label={<strong>{t('Inbox')} ({app.indexCounts.inboxUnread})</strong>} icon="comments" group="inbox">
         <LeftNav.Link pathname={pathname} to="/inbox/private">{t('Private')} ({app.indexCounts.privateUnread})</LeftNav.Link>
         <LeftNav.Link pathname={pathname} to="/inbox/watching">{t('Watching')} ({app.indexCounts.bookmarkUnread})</LeftNav.Link>
         <LeftNav.Link pathname={pathname} to="/inbox/mentions">{t('Mentioned')} ({app.indexCounts.mentionUnread})</LeftNav.Link>
       </LinkGroup>
 
-      <LinkGroup pathname={pathname} to="/" label={t('ActivityFeed')} icon="newspaper-o" group="activity">
+      <LinkGroup pathname={pathname} to="/" label={t('ActivityFeed')} icon="bank" group="activity">
         { pinnedChannels.map(renderChannel) }
         <div className="link">
-          <a onClick={this.onOpenChannelList.bind(this)}><i className="fa fa-folder-open-o"/></a>
+          <a onClick={this.onOpenChannelList.bind(this)}><i className="fa fa-search"/></a>
           { this.state.isChannelListOpen ? <i className="fa fa-caret-left" style={{ color: 'gray', marginLeft: 5 }} /> : '' }
         </div>
       </LinkGroup>
 
-      <LinkGroup pathname={pathname} to="/contacts" label={t('Contacts')} group="contacts">
+      <LinkGroup pathname={pathname} to="/contacts" label={t('Tribe')} icon="users" group="contacts">
         { contacts.map(renderContact) }
       </LinkGroup>
 
@@ -127,6 +127,7 @@ export default class LeftNav extends React.Component {
       <LeftNav.Link className="thin" pathname={pathname} to="/data">{t('DataFeed')}</LeftNav.Link>
       
       <LanguageMenu/>
+<LanguageMenu/>
     </div>
   }
 }

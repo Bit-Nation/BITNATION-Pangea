@@ -24,7 +24,7 @@ It will be the least likely to have bugs.
 **Install:**
 
 ``` bash
-npm install ssb-patchwork -g
+npm install BITNATION-Pangea -g
 ```
 
 **Run:**
@@ -49,8 +49,8 @@ It will contain updates not yet published on NPM.
 **Install:**
 
 ```bash
-git clone https://github.com/ssbc/patchwork.git
-cd patchwork
+git clone https://github.com/Bit-Nation/BITNATION-Pangea.git
+cd BITNATION-Pangea
 npm install
 ```
 

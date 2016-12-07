@@ -1,6 +1,6 @@
 {
   "name": "pangea",
-  "version": "2.12.4",
+  "version": "2.12.5",
   "description": "A Peer-to-Peer Jurisdiction",
   "main": "app/index.js",
   "homepage": "https://bitnation.co/",

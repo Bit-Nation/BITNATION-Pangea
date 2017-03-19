@@ -10,7 +10,6 @@
  - The datastructure is a global mesh of append-only logs, which can support new types of data (not just "mail").
  - Users are not bound to one server/host (what we call "pubs") and do not have to trust the servers.
  - It's very easy to setup and maintain your own pub.
- - Private messages are end-to-end encrypted, always.
  - The software runs on your device, so there's nobody tracking your browsing.
  - The application-code is FOSS, so you're free to fork or write new applications without a gatekeeper setting terms.
  - Data is saved to your disk, and so the application works offline.
